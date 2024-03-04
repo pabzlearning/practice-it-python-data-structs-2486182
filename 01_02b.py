@@ -1,6 +1,12 @@
+import string
+from collections import Counter
+
 def get_common_products(products_purchased):
     #code goes here
-    return
+    products = Counter(products_purchased)
+    top_products = products.most_common(3)
+
+    return top_products
 
 def main():
     products_purchased = ["DES005",

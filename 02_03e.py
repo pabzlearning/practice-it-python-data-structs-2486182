@@ -33,7 +33,7 @@ def main():
     add_task(Task("Respond to Email", True))
     print(task_queue)
     print_tasks()
-    print(do_task())
+    # print(do_task())
     return
 
 if __name__ == "__main__":
